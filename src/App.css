@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container{
+  margin: 0px ;
+}
+.Feed{
+  position: absolute;
+width: 73px;
+height: 20px;
+left: 1032px;
+top: 0px;
+padding-top: 50px;
+padding-right: 10;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 126%;
+text-align: right;
+letter-spacing: 0.02em;
+color: #223344;
+
+}
+.select{
+  margin: 0px 00px 0px 500px;
+  padding: 0px 50px 0px 9px;
+}
+.Language{
+  position: absolute;
+width: 54px;
+height: 20px;
+left: 1153px;
+top: 0px;
+padding-top: 50px;
+padding-right: 30px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 126%;
+text-align: right;
+letter-spacing: 0.02em;
+color: #223344;
+}
+.Feedback{
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+}
+.omfo{
+  position: absolute;
+  width: 48.6px;
+  height: 30.11px;
+  left: 58px;
+  top: 37px;
+  background: linear-gradient(102.05deg, #0099CC 6.59%, #00CCCC 36.95%, #00CC99 55.33%);
+}
+
+#notification{
+  position: absolute;
+  width: 54px;
+  height: 20px;
+  left: 1153px;
+  top: 44px;
+  
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 126%;
+  text-align: right;
+  letter-spacing: 0.02em;
+
+}
+.Photo{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-size: 0.5rem;
+}
+
+.select{
+  margin-top: 20px;
+}
+.input-group{
+  display: flex;
+  display: flexbox;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.footer{
+  margin-left: 100px;
+  margin-top: 30px;
+ 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

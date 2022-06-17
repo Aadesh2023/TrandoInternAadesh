@@ -1,0 +1,45 @@
+.sel{
+  margin: 0px 10px ;
+}
+  .check{
+    margin: 00px 0px;
+  }
+  .dropdown{
+    margin: 10px ;
+  }
+  #select{
+    list-style: none;
+    list-style-type: none;
+
+  }
+  .icon{
+    margin: 0px 20px;
+  }  
+  .btns{
+    margin: 0px 40px;
+    padding: 2px blue;
+    background-color: yellow;
+    border-radius: 0.2rem;
+  }
+  .option{
+   text-decoration-color:#18dd22;
+   text-emphasis-color: red;
+   background-color:green;
+   margin: 0px 20px;
+   border-radius: .2rem;   
+  }
+  .Categories{
+    margin-top: 30px;
+    margin-left: 150px;
+   
+  }
+#Fond{
+  position: absolute;
+width: 40px;
+height: 80px;
+left: 24px;
+top: 271px;
+border-radius: 14px;
+  }
+
+  
